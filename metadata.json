@@ -1,0 +1,5 @@
+{
+  "name": "Hospital Management Assistant",
+  "description": "An intelligent AI coordinator for hospital operations, handling staff schedules, medical queries, accounting, patient records, and appointments.",
+  "requestFramePermissions": []
+}
