@@ -143,7 +143,7 @@ export const sendMessageToGemini = async (
       // 4. Send the tool execution result back to Gemini
       // The SDK creates a new turn. We send the functionResponse.
       const result2 = await chat.sendMessage({
-        content: {
+        message: {
           role: 'function',
           parts: [{
             functionResponse: {
